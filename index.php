@@ -1,8 +1,8 @@
 <?php
 // Config 
-define('ADMIN', ''); // ex: 249010980
-define('URL_HOOK', ''); // ex: https://app-be.cleverapps.io/index.php 
-define('BOT_TOKEN', ''); // ex: 232609410:AAFflIialCDalun4i9zyOhHqER0mMtOTKgVk
+define('ADMIN', '39770224'); // ex: 249010980
+define('URL_HOOK', 'https://pvbot-chtele.rhcloud.com/'); // ex: https://app-be.cleverapps.io/index.php 
+define('BOT_TOKEN', '296954207:AAG_BHPf62at_mFArLi6DDw9Zz4okfYuB84'); // ex: 232609410:AAFflIialCDalun4i9zyOhHqER0mMtOTKgVk
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
