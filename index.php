@@ -516,7 +516,7 @@ else if ($chat_id == $admin && $booleans[0] == "true") {
         
       if($chat_id!=$admin){
       apiRequest("sendMessage", array('chat_id' => $chat_id,"text"=>$pmembersiddd[0] ,"parse_mode"=>"HTML"));
- apiRequest("sendMessage", array('chat_id' => $chat_id,"text"=> '[Robot Build your messaging](https://telegram.me/TWSALBOT)' ,"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+ apiRequest("sendMessage", array('chat_id' => $chat_id,"text"=> '' ,"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 $txxt = file_get_contents('pmembers.txt');
 $pmembersid= explode("\n",$txxt);
